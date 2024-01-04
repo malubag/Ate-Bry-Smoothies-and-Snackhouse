@@ -6,7 +6,7 @@
 }
 
 .ff-secondary {
-    font-family: 'Garamond', Consolas;
+    font-family: 'Pacifico', cursive;
 }
 
 .fw-medium {
@@ -43,16 +43,15 @@
 
 /*** Button ***/
 .btn {
-    font-family: 'Consolas', sans-serif;
-    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
     text-transform: uppercase;
     transition: .5s;
 }
 
 .btn.btn-primary,
 .btn.btn-secondary {
-    color: #fff; 
-    background-color: #A52A2A; 
+    color: #FFFFFF;
 }
 
 .btn-square {
@@ -153,7 +152,7 @@
 
 /*** Hero Header ***/
 .hero-header {
-    background: linear-gradient(rgba(15, 23, 43, 0.6), rgba(15, 23, 43, .6)), url(../img/background.jpg);
+    background: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url(../img/bg-hero.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
